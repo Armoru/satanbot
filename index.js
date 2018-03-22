@@ -87,22 +87,8 @@ bot.on('message',(message)=>{
 		message.reply("Congratulation you got : "+ rng);
 		rng=[];
 		i = 0;
-	}else if(message.content == '!gm'){
-		message.channel.send('hungry for girls :ballot_box_with_check:\nalways looking for drama :ballot_box_with_check:\nspontaneous kicks :ballot_box_with_check:\nfinding whales :ballot_box_with_check: \ngiant weeb :ballot_box_with_check:\nAfter pussies :ballot_box_with_check:\nPinning useless things :ballot_box_with_check:\nperverted af :ballot_box_with_check: \nflames ppl :ballot_box_with_check: \nfloofy af :ballot_box_with_check:\nscared of 1v1 pvp :ballot_box_with_check:\nArena cancer :ballot_box_with_check:\nBraindead strats :ballot_box_with_check:\ndumb fuck :ballot_box_with_check:\neasily triggered :ballot_box_with_check:\npassive aggressive scum :ballot_box_with_check:\nPruning chat needlessly :ballot_box_with_check:\nMUST BE GM');
-	}else if(message.content == '!sena'){
-		message.channel.send('osu :ballot_box_with_check: \ndiscord in class :ballot_box_with_check: \nstaying up late :ballot_box_with_check: \nfoodporn :ballot_box_with_check: \ngrowing harem :ballot_box_with_check: \ncollecting male butt mousepad :ballot_box_with_check: \ncatfishing ppl :ballot_box_with_check: \ngrabbing cats :ballot_box_with_check: \nbeing on top :ballot_box_with_check:\nForcing People to do bad things :ballot_box_with_check: \na huge S :ballot_box_with_check:\nMUST BE SENA');
-	}else if(message.content == '!cyro'){
-		message.channel.send("Changing name everyday :ballot_box_with_check:\nWorships Artemia :ballot_box_with_check:\nGives pattos :ballot_box_with_check: \nSurrounded by idiots :ballot_box_with_check:\nInto older women :ballot_box_with_check: \nHunting for waifus :ballot_box_with_check: \nMacro during work :ballot_box_with_check: \nLooking for new job :ballot_box_with_check: \nMUST BE CYRODELIC");
-	}else if(message.content == '!flail'){
-		message.channel.send("namedropper :ballot_box_with_check:\nHUEG burden :ballot_box_with_check: \n4 star gears :ballot_box_with_check: \nkeeps changing nickname :ballot_box_with_check: \nMust be Flaialaialail");
-	}else if(message.content == '!neo'){
-		message.channel.send("Wooing Sena :ballot_box_with_check:\nRich boye :ballot_box_with_check:\nRaising disappointment because cute :ballot_box_with_check:\nWants all the cute grills :ballot_box_with_check:\nChanging IGN depending on mood :ballot_box_with_check:\nWeeb room :ballot_box_with_check:\nSamurais :ballot_box_with_check: \nO MEGHAAA weebs :ballot_box_with_check: \nBuying figurines w/o looking at price :ballot_box_with_check:\nMHW all day :ballot_box_with_check: \nOne piece addict :ballot_box_with_check: \nMUST BE NEO");
-	}else if(message.content == '!moru'){
-		message.channel.send("Never sleeps :ballot_box_with_check:\nShut in n33t :ballot_box_with_check:\n8,000 hours of dota :ballot_box_with_check:\nFockin weeb :ballot_box_with_check:\n Betraying people :ballot_box_with_check: \nHuge M :ballot_box_with_check: \nBiased :ballot_box_with_check: \n MUST BE MORU");
-	}else if(message.content == '!kagami'){
-		message.channel.send("League all day :ballot_box_with_check: \nStays inside :ballot_box_with_check: \nSmol wrists :ballot_box_with_check: \nLikes to be dominated :ballot_box_with_check: \nDangerous :ballot_box_with_check: \nMakes YouTube videos :ballot_box_with_check: \nLit af :ballot_box_with_check: \nKekekek :ballot_box_with_check: \nMeta whore :ballot_box_with_check: \nCan control ppl :ballot_box_with_check: \nLike thicc :ballot_box_with_check: \nLikes lewd dominant women :ballot_box_with_check: \nCooks SPAGHETT :ballot_box_with_check: \nSpends money on cardboards :ballot_box_with_check:\nDed inside :ballot_box_with_check: \nReady to fite :ballot_box_with_check:\nToxic af :ballot_box_with_check: \nSavage :ballot_box_with_check: \nMUST BE KEKGAMI");
 	}else if(message.content == '!help'){
-		message.channel.send("Say ``!pull`` for a disappointment\n``!gm`` for gm facts\n``!sena`` for sena facts\n``!cyro`` for cyro facts\n``!flail`` for flail facts\n``!neo`` for neo facts\n``!moru`` for moru facts\n``!kagami`` for kagami facts");
+		message.channel.send("Say ``!pull`` for a disappointment");
 	}else if(message.content == '!satan'){
 		message.reply("Hi dipshit");
 	}else if (message.content =='!testfor'){
