@@ -103,8 +103,6 @@ bot.on('message',(message)=>{
 		message.reply("yeas")
 	}else if(message.content=='!Hrnow'){
 		message.reply(hr);
-		message.reply(date.getDay());
-		message.reply(date.getDate());
 	}
 	//test
 	//test commit 2
