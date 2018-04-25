@@ -102,7 +102,7 @@ bot.on('message',(message)=>{
 	}else if(message.content=='!botalive?') {
 		message.reply("yeas")
 	}else if(message.content=='!Hrnow'){
-		message.reply(hr);
+		message.reply(date);
 	}
 	//test
 	//test commit 2
