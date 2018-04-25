@@ -9,7 +9,6 @@ var date = new Date();
 var hr = date.getHours();
 var min = date.getMinutes();
 var detail = date.getUTCDate();
-d = date.toLocaleTimeString();
 
 
 bot.on('message',(message)=>{
@@ -107,7 +106,7 @@ bot.on('message',(message)=>{
 	}else if(message.content=='!botalive?') {
 		message.reply("yeas")
 	}else if(message.content=='!tanggal'){
-		message.reply(hr+'/n'+min+'/n'+detail+"/n"+d);
+		message.reply(hr+"@Everyone");
 	}
 	//test
 	//test commit 2
