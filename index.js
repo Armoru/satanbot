@@ -2,13 +2,16 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 console.log('Bot Running');
-
+process.env.TZ = 'Asia/Jakarta' 
 var rng= [];
 var i = 0;
 var date = new Date();
 var hr = date.getHours();
 var min = date.getMinutes();
 var detail = date.getUTCDate();
+
+
+
 bot.on('message',(message)=>{
 	if(message.content == '!duo'){
 		//message.reply('Hola'); reply to someone message
