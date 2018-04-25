@@ -7,6 +7,7 @@ var rng= [];
 var i = 0;
 var date = new Date();
 var hr = date.getHours();
+var ds = date.toString();
 bot.on('message',(message)=>{
 	if(message.content == '!duo'){
 		//message.reply('Hola'); reply to someone message
@@ -104,7 +105,7 @@ bot.on('message',(message)=>{
 	}else if(message.content=='!Hrnow'){
 		message.reply(hr);
 	}else if(message.content=='!Date'){
-		message.reply(date);
+		message.reply(ds);
 	}
 	//test
 	//test commit 2
