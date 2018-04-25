@@ -5,6 +5,8 @@ console.log('Bot Running');
 
 var rng= [];
 var i = 0;
+var date = new Date();
+var hr = date.getHours();
 bot.on('message',(message)=>{
 	if(message.content == '!duo'){
 		//message.reply('Hola'); reply to someone message
@@ -99,6 +101,8 @@ bot.on('message',(message)=>{
 		message.reply("hueuheuheu")
 	}else if(message.content=='!botalive?') {
 		message.reply("yeas")
+	}else if(message.content=='!Hrnow'){
+		message.reply(hr);
 	}
 	//test
 	//test commit 2
