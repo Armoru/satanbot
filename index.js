@@ -103,8 +103,8 @@ bot.on('message',(message)=>{
 		message.reply("hueuheuheu")
 	}else if(message.content=='!botalive?') {
 		message.reply("yeas")
-	}else if(message.content=='!Hrnow'){
-		message.reply(date+'/n'+hr+'/n'+min+'/n'+detail);
+	}else if(message.content=='!tanggal'){
+		message.reply(hr+'/n'+min+'/n'+detail);
 	}
 	//test
 	//test commit 2
