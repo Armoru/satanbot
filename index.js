@@ -106,7 +106,7 @@ bot.on('message',(message)=>{
 	}else if(message.content=='!botalive?') {
 		message.reply("yeas")
 	}else if(message.content=='!tanggal'){
-		message.reply(hr+"@Everyone");
+		message.reply(hr+" @everyone");
 	}
 	//test
 	//test commit 2
